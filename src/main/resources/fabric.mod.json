@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "stringpickaxe",
+  "version": "${version}",
+  "name": "String Pickaxe",
+  "description": "Adds a String Pickaxe that mines like iron, mines obsidian like diamond, and always has Silk Touch.",
+  "authors": [
+    "OpenAI"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.stringpickaxe.StringPickaxeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

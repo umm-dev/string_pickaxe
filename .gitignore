@@ -1,0 +1,9 @@
+.gradle/
+build/
+out/
+.idea/
+*.iml
+run/
+*.jar
+java21.bat
+string_pickaxe_transparent.png
